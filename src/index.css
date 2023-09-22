@@ -1,13 +1,181 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #333333 url(images/page-bg.jpg);
+  margin: 0px;
+  max-height: 100%;
+  font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+  color: #6a6969;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  font: 400 18px/22px 'Bree Serif', Georgia, serif;
+  color: #ffffff;
+}
+
+h3 {
+  font: 400 14px/16px 'Bree Serif', Georgia, serif;
+  color: #ffffff;
+}
+
+h4 {
+  font: 400 30px/22px 'Bree Serif', Georgia, serif;
+  color: #000000;
+}
+
+h5 {
+  font: 400 25px/22px 'Bree Serif', Georgia, serif;
+  color: #ffb400;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #6a6969;
+}
+
+#container {
+  background: url(images/body-bg.png);
+  overflow: auto;
+}
+
+
+/****************************************************/
+/* NAVBAR */
+/****************************************************/
+
+nav{
+  background-color: #ffb400;
+  padding: 0px 43px;
+}
+
+.main-menu{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.main-menu:hover{
+  color: white !important;
+}
+
+/****************************************************/
+/* ABOUT SECTION */
+/****************************************************/
+
+.about {
+  color: #6a6969;
+}
+
+/****************************************************/
+/* PROJETOS SECTION */
+/****************************************************/
+
+.itens-projetos{
+  text-decoration: none !important;
+  color: #ffb400 !important;
+}
+
+.itens-projetos:hover{
+  color: white !important;
+}
+
+.text-projetos{
+  color: #ffb400 !important;
+  list-style-type: none;
+}
+
+/****************************************************/
+/* CLIENTES SECTION */
+/****************************************************/
+
+.itens-clientes{
+  text-decoration: none !important;
+  color: #ffb400 !important;  
+  list-style-type: none;
+}
+
+.itens-clientes:hover{
+  color: white !important;
+}
+
+.text-clientes{
+  color: white !important;
+}
+
+/****************************************************/
+/* CONNECT SECTION */
+/****************************************************/
+
+#social-footer #sm-links {
+  margin-top: 30px;
+}
+
+#social-footer #sm-links li {
+  list-style: none;
+  float: left;
+}
+
+#social-footer #sm-links li a {
+  display: block;
+  text-indent: -9999px;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+#sm-links li a.facebook {
+  background: url(images/facebook.ico) no-repeat;
+}
+
+#sm-links li a.gmail {
+  background: url(images/google.ico) no-repeat;
+  width: 32px;
+}
+
+#sm-links li a.insta {
+  background: url(images/insta.ico) no-repeat;
+}
+
+#sm-links li a.zap {
+  background: url(images/zap.ico) no-repeat;
+  width: 32px;
+}
+
+#sm-links li a.linkedin {
+  background: url(images/linkedin.ico) no-repeat;
+}
+
+/****************************************************/
+/* MISC */
+/****************************************************/
+.top-divider {
+  width: 100%;
+  height: 9px;
+  background: url(images/divider.png) repeat-x;
+  clear: both;
+}
+
+.top-divider {
+  margin-bottom: 40px;
+}
+footer .copyright {
+  margin-top: 20px;
+  color: #000000;
+  font-size: 13px;
+}
+
+#footer {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: #ffb400;
+  padding: 0px 43px;
+  position: fixed;
+  bottom: 0px;
 }
